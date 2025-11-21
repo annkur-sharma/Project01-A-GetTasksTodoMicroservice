@@ -14,11 +14,11 @@ spec:
     spec:
       containers:
       - name: todo-get-task-api
-        image: fwmsxd011927acr.azurecr.io/todo-get-tasks-api:v1
+        image: gjktnc023433acr.azurecr.io/todo-get-tasks-api:v1
         ports:
         - containerPort: 8000
         env: 
         - name: CONNECTION_STRING
-          value: "Driver={ODBC Driver 18 for SQL Server};Server=tcp:fwmsxd011927sqlserver.database.windows.net,1433;Database=fwmsxd-011927-SQLDB;Uid=SQLUser1;Pwd=SQLPass1@;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+          value: "Driver={ODBC Driver 18 for SQL Server};Server=tcp:gjktnc023433sqlserver.database.windows.net,1433;Database=gjktnc-023433-SQLDB;Uid=SQLUser1;Pwd=SQLPass1@;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
           
 
